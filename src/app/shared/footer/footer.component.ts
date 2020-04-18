@@ -9,8 +9,7 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
 export class FooterComponent implements OnInit {
 
   year: number = new Date().getFullYear();
-  // tslint:disable-next-line: variable-name
-  constructor( public _servicio: InfoPaginaService) { }
+  constructor(public _servicio: InfoPaginaService) { }
 
   ngOnInit(): void {
   }
