@@ -14,6 +14,8 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     AboutComponent,
     ItemComponent,
     ContactoComponent,
+    BlogComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
